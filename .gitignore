@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Application logs
+logs/*.log
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+
+# SQLite local testing file
+data/*.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+

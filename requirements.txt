@@ -1,0 +1,27 @@
+# Core Data Processing and Numerical Calculations
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning and Anomaly Detection
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Event Streaming (Kafka)
+kafka-python-ng>=2.2.0
+
+# Database Connectivity (MySQL)
+SQLAlchemy>=2.0.0
+PyMySQL>=1.1.0
+cryptography>=41.0.0
+mysql-connector-python>=8.0.0
+
+# Live Web Dashboard and Interactive Visualizations
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# Environment and Configuration Management
+python-dotenv>=1.0.0
+
+# Automated Testing
+pytest>=7.4.0
+

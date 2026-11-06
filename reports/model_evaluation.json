@@ -1,0 +1,50 @@
+{
+    "model_type": "IsolationForest",
+    "n_estimators": 100,
+    "contamination": 0.01,
+    "features": [
+        "Global_active_power",
+        "Global_reactive_power",
+        "Global_intensity"
+    ],
+    "train_records": 8064,
+    "test_records": 2016,
+    "total_records": 10080,
+    "timestamp_evaluated": "2026-11-02T13:37:04.417294",
+    "test_evaluation": {
+        "evaluated_records": 2016,
+        "injected_anomalies": 18,
+        "predicted_anomalies": 17,
+        "precision": 1.0,
+        "recall": 0.9444,
+        "f1_score": 0.9714,
+        "confusion_matrix": [
+            [
+                1998,
+                0
+            ],
+            [
+                1,
+                17
+            ]
+        ]
+    },
+    "overall_evaluation": {
+        "evaluated_records": 10080,
+        "injected_anomalies": 105,
+        "predicted_anomalies": 98,
+        "precision": 1.0,
+        "recall": 0.9333,
+        "f1_score": 0.9655,
+        "confusion_matrix": [
+            [
+                9975,
+                0
+            ],
+            [
+                7,
+                98
+            ]
+        ]
+    }
+}
