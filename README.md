@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real-Time Streaming Analytics for Smart-Meter Power Consumption Monitoring and Anomaly Detection Using Machine Learning
 
 [![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
@@ -379,3 +380,6 @@ pytest -v
 2. **Distributed Processing Engines:** Scale the Python stream processor to Apache Flink or Apache Spark Streaming for multi-node distributed processing.
 3. **Automated Alert Webhooks:** Configure Slack, Discord, or SMS webhooks to alert electrical maintenance engineers immediately when consecutive anomalies occur.
 
+=======
+# Smart-Meter-Power-Consumption-Monitoring-and-Anomaly-Detection-Using-Machine-Learning-
+>>>>>>> 2c30d14e382d116c5ff9ba21a3f59c19b37e0c6e
